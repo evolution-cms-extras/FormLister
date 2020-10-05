@@ -1,5 +1,6 @@
 {
   "name": "evolution-cms-extras/formlister",
+  "description": "evocms package for work with any forms",
   "license": "MIT",
   "authors": [
     {

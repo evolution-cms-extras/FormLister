@@ -1,0 +1,33 @@
+{
+  "name": "evolution-cms-extras/FormLister",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pathologic",
+    },
+    {
+      "name": "Dmytro Lukianenko",
+      "email": "dmi3yy@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "EvolutionCMS\\FormLister\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EvolutionCMS\\FormLister\\FormListerServiceProvider"
+      ],
+      "files": [
+        {
+          "source": "assets/",
+          "destination": ""
+        }
+      ]
+    }
+  }
+}

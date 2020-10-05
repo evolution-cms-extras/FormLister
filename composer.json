@@ -12,6 +12,7 @@
     }
   ],
   "require": {
+      "evolution-cms-extras/doclister": "*"
   },
   "autoload": {
     "psr-4": {

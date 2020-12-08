@@ -5,6 +5,7 @@
  * Date: 25.06.2016
  * Time: 18:59
  */
+$modx = evolutionCMS();
 $e = $modx->event;
 include_once(MODX_BASE_PATH . 'assets/lib/MODxAPI/modUsers.php');
 if ($e->name == 'OnWebAuthentication' && isset($userObj)) {
